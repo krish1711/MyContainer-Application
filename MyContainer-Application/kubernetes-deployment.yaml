@@ -36,7 +36,7 @@ spec:
 
       - name: aks-demo-app
 
-        image: #{ACR}#/krish1711/MyContainer-Application
+        image: #{ACR}#/krish1711/mycontainer-application
 
         imagePullPolicy: Always
 
