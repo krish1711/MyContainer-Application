@@ -31,6 +31,8 @@ spec:
         app: aks-demo-app
 
     spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": windows
 
       containers:
 
